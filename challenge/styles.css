@@ -1,0 +1,46 @@
+.panel-primary {
+    border: 2px solid rgb(0, 80, 150) !important;
+}
+
+.panel-heading {
+    color: black !important;
+    border: none !important;
+    background-color: #fff !important;
+}
+
+.jumbotron {
+    background-image: url("https://news.usc.edu/files/2018/02/HarmfulBacteria_web.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.row {
+    margin: 2rem auto;
+}
+
+.well {
+    border: 2px solid rgb(0, 80, 150);
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+.description {
+    font-size: 2.5rem;
+    text-align: center;
+    border: 5px solid rgb(0, 80, 150);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+#gauge {
+    height: auto !important;
+    width: 40% !important;
+}

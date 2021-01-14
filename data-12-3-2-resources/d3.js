@@ -12,8 +12,7 @@ d3.json("samples.json").then(function(data){
 
 // Sort in descending order
 d3.json("samples.json").then(function(data){
-    wfreq = data.metadata.map(person =>
-person.wfreq).sort((a,b) => b - a);
+    wfreq = data.metadata.map(person => person.wfreq).sort((a,b) => b - a);
     console.log(wfreq);
 });
 
