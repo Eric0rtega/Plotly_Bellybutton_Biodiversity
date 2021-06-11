@@ -44,3 +44,10 @@ h6 {
     height: auto !important;
     width: 40% !important;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
